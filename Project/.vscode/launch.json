@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Run LMS with Derby",
+      "request": "launch",
+      "mainClass": "LMS.Main",
+      "classPaths": [
+        "${workspaceFolder}/bin",
+        "C:/Users/HP/Downloads/db-derby-10.17.1.0-bin (1)/db-derby-10.17.1.0-bin/lib/derbyclient.jar",
+        "C:/Users/HP/Downloads/db-derby-10.17.1.0-bin (1)/db-derby-10.17.1.0-bin/lib/derby.jar"
+      ]
+    }
+  ]
+}

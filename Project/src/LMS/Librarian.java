@@ -1,4 +1,3 @@
-
 package LMS;
 
 import static LMS.Library.librarian;
@@ -6,7 +5,7 @@ import static LMS.Library.persons;
 
 public class Librarian extends Staff {
 
-    int officeNo;     //Office Number of the Librarian
+    int officeNo; // Office Number of the Librarian
     public static int currentOfficeNumber = 0;
 
     public Librarian(int id, String n, String a, int p, double s, int of) // para cons.
@@ -29,7 +28,7 @@ public class Librarian extends Staff {
     }
 
     public static boolean addLibrarian(Librarian lib) {
-        //One Library can have only one Librarian
+        // One Library can have only one Librarian
         if (librarian == null) {
             librarian = lib;
             persons.add(librarian);
